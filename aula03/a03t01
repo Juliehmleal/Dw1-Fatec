@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!-- DOM: Document Object Model-->
+		<!-- FrameWork: ferramenta para desenvolvimento -->
+		<!-- XAMPP: frameWork de desenvolvimento web -->
+		<!-- Apache: Servidor web do XAMPP -->
+		<!-- HTTP: protocolo de transferencia de hypertexto, como o navegador conversa com um servidor web-->
+		<!-- FTP: protocolo de transferencia de arquivos (files) -->
+		
+		<meta charset = "utf-8">
+		
+		<title>a03t01</title>
+	
+	</head>
+	
+	<body>
+		<h1>Primeiro título, atualizando!</h1>
+	</body>
+
+</html>

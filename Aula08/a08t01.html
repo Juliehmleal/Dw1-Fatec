@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>a08t01</title>
+	</head>
+	
+	<body>
+		<h1>Formulários e Relatórios em HTML</h1>
+		<!-- formularios usados para receber entrada de dados-->
+		<!-- interface para o usuario -->
+		<!-- associados a operações que envolvam processamento em servidores -->
+		<!-- nao é um elemento visivel por si só-->
+		<!-- representado pela tag <form> </form> -->
+		<!--Deve conter: name, action e method-->
+		<!--Action define para onde seram enviado os dados-->
+		<!--Method define o metodo de envio post ou get; get: maneira aberta post: maneira oculta-->
+		<!--target define aonde o arquivo do action sera aberto -->
+		<form name="f1" action="" method="">
+			
+			<p><input name="txt1" type="text"></p> <!-- formulario do tipo texto -->
+			<p><input name="num1" type="number"></p>
+			<p><input name="btn1" type="submit"></p>
+			
+					
+		</form>
+		
+		<?php
+			echo "<pre>";
+			print_r($_GET);
+		?>
+	</body>
+
+</html>
