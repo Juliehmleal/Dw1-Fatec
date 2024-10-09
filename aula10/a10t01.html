@@ -1,0 +1,202 @@
+<!DOCTYPE>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>a10t01</title>
+		
+		<style>
+			table {
+				border-top: 5px solid pink;
+				border-right: 5px solid pink;
+				border-left: 5px solid pink;
+				border-bottom: 5px solid pink;
+			}
+			
+			td, th, caption {
+				border-top: 1px solid black;
+				border-right: 1px solid black;
+				border-left: 1px solid black;
+				border-bottom: 1px solid black;
+				text-align: center;
+			}
+			
+			td:hover {
+				background-color: pink;
+			}
+			
+			.tabela {
+				width: 780px;
+			}
+			
+			.cabecalho{
+				height:50px;
+			}
+			
+			.corpo{
+				height: 500px;
+			}
+			
+			.rodape{
+				height:	30px;
+			}
+		
+		</style>
+		
+	<head>
+	
+	<body>
+		<h1>Tabelas em html</h1>
+		
+		<h2>1x1</h2>
+		<table>
+			<tr>
+				<td>Célula1</td>
+			</tr>
+		</table>
+		
+		<h2>2x2</h2>
+		<table>
+			<tr>
+				<td>elemento1</td>
+				<td>elemento2</td>
+			</tr>
+			
+			<tr>
+				<td>elemento3</td>
+				<td>elemento4</td>
+			</tr>
+		
+		</table>
+		
+		<h2>3x5</h2>
+		<table>
+			<tr>
+				<td>elemento1</td>
+				<td>elemento2</td>
+				<td>elemento3</td>
+				<td>elemento4</td>
+				<td>elemento5</td>
+				
+			</tr>
+			
+			<tr>
+				<td>elemento6</td>
+				<td>elemento7</td>
+				<td>elemento8</td>
+				<td>elemento9</td>
+				<td>elemento10</td>
+				
+			</tr>
+			
+			<tr>
+				<td>elemento11</td>
+				<td>elemento12</td>
+				<td>elemento13</td>
+				<td>elemento14</td>
+				<td>elemento15</td>
+			</tr>
+		
+		</table>
+		
+		<h2> 3x3 </h2>
+		
+		<table>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			
+			<tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+			</tr>
+		</table>
+		
+		<h2>4x4 cabeçalho</h2>		
+		<table>
+			<tr>	<!--ocupa o espaço de 4 td-->
+				<td colspan="4">1</td>
+			</tr>
+			
+			<tr>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+			</tr>
+			
+			<tr>
+				<td>9</td>
+				<td>10</td>
+				<td>11</td>
+				<td>12</td>
+			</tr>
+			
+			<tr>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+			</tr>
+		</table>
+		
+		
+		<hr>
+		<table>
+			<caption>Alunos da fatec</caption>
+			<tr>
+				<th>Nome</th>
+				<th>Idade</th>
+				<th>Semestre</th>
+			</tr>
+			
+			<tr>
+				<td>Julie</td>
+				<td>21</td>
+				<td>1º</td>
+			</tr>
+				<td>Ana</td>
+				<td>20</td>
+				<td>1º</td>
+			<tr>
+				<td>Raíssa</td>
+				<td>18</td>
+				<td>1º</td>
+			</tr>
+			
+			<tr>
+				<td>Bruna</td>
+				<td>30</td>
+				<td>1º</td>
+			</tr>
+			
+			
+		</table>
+		
+		<table class="tabela">
+			<caption>tabela</caption>
+			<tr class="cabecalho">
+				<th>Cabeçalho</th>
+			</tr>
+			
+			<tr class="corpo">
+				<td>corpo</td>
+			</tr>
+		
+			<tr class="rodape">
+				<td>rodape</td>
+			</tr>
+		
+		
+		</table>
+	<body>
+
+</html>
