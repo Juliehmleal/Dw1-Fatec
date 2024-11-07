@@ -1,0 +1,55 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: pink;
+}
+
+header,nav,main,footer{
+    border: 1px solid lightcoral;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    position: absolute;
+}
+
+header{
+    background-color: green;
+    width: 500px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+
+}
+
+nav{
+    background-color: yellow;
+    width: 100px;
+    height: 400px;
+    z-index: 3;
+    top: 120px;
+    left: 0px;
+}
+
+main{
+    background-color: red;
+    color: antiquewhite;
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+    left: 100px;
+    top: 120px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    z-index: 4;
+    top: 520px;
+    width: 500px;
+    height: 30px;
+    left: 0px;
+}
+

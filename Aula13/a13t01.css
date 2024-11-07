@@ -1,0 +1,75 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px
+}
+
+body{
+    background-color: lightgray;
+}
+
+.pai{
+    display: grid;
+    background-color: brown;
+}
+
+.filho{
+    border: 1px solid black;
+}
+
+.header{
+    background-color: aquamarine;
+    grid-area: header;
+    text-align: center;
+}
+
+.nav{
+    background-color: aquamarine;
+    grid-area: nav;
+}
+
+.cont{
+    background-color: aquamarine;
+    grid-area: cont;
+}
+
+.ads1{
+    background-color: aquamarine;
+    grid-area: ads1;
+}
+
+.ads2{
+    background-color: aquamarine;
+    grid-area: ads2;
+}
+
+
+.footer1{
+    background-color: aquamarine;
+    grid-area: fot1;
+}
+
+.footer2{
+    background-color: aquamarine;
+    grid-area: fot2;
+}
+
+
+
+.gta{
+    grid-template-areas: 
+    "header header header header header"
+    "nav cont cont ads1 ads2"
+    "fot1 fot1 fot2 fot2 fot2"
+    ;
+
+    /*gap: 2px; Vão entre os filhos da grid*/
+
+    row-gap: 5px; /* feito entre linhas e colunas */
+    column-gap: 20px;
+
+    grid-template-columns: 
+    100px auto auto 80px 80px
+    ;
+
+    grid-template-rows: 120px calc(100vh - 120px - 30px - 10px) 30px;
+}

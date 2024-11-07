@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+
+.filho{
+    border: 1px solid lightblue
+}
+
+.pai{
+    display: grid;
+}
+
+.cab{
+    background-color: yellow;
+    grid-area: cab;
+}
+
+.menu{
+    background-color: green;
+    grid-area: menu;
+}
+
+.cont{
+    background-color: black;
+    color: white;
+    grid-area: cont;
+}
+
+.as{
+    background-color: cornflowerblue;
+    grid-area: as;
+}
+
+.rod{
+    background-color: red;
+    color: white;
+    grid-area: rod;
+}
+
+
+
+.gta{
+    grid-template-areas: 
+    "cab cab cab"
+    "menu cont as"
+    "rod rod rod"
+    ;
+}

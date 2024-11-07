@@ -1,0 +1,56 @@
+/* tela pequena */
+body{
+    background-color: hotpink;
+}
+
+h1{
+    color: white;
+}
+
+#d2{
+    display: unset; /* unset : vorta tudo deu merda */
+}
+
+
+
+/* tela media */
+
+@media (min-width: 500px)
+{   
+    body{
+        background-color: tomato;
+    }
+
+    p{
+        color: white;
+        font: italic 35px verdana;
+    }
+
+    #d2{
+        display: unset; /*volta para o padrao */
+        background-color: aliceblue;
+    }
+}
+
+
+
+/* tela grande */
+
+@media (min-width: 800px) 
+{
+    h1, p{
+        color: black;
+    }
+
+    div{
+        border: 3px dotted yellow;
+    }
+
+    body{
+        background-color: white;
+    }
+
+    #d2{
+        display: none;
+    }
+}
