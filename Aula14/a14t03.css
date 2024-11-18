@@ -1,0 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px ;
+}
+
+.avo{
+    display: flex;
+    justify-content: center;
+}
+
+.paif { 
+    justify-content: center;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 800px;
+    max-height: 1500px;
+    background-color: cornflowerblue;
+}
+
+.filhof{
+    margin: 10px;
+    min-width: 100px;
+    max-width: 250px;
+    min-height: 200px;
+    max-height: 50px;
+    margin-bottom: 5px;
+}
+
+.jc1{
+    justify-content: space-evenly;
+}
+
+.fdc{/*alterando flex para vertical */
+    display: flex;
+}
+
+.qs{
+    flex-wrap: wrap;
+}

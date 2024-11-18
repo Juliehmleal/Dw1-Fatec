@@ -1,0 +1,29 @@
+.paif { 
+    min-width: 400px;
+    min-height: 1200px;
+    max-height: 1200px;
+    background-color: cornflowerblue;
+}
+
+.filhof{
+    border: 1px solid black;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-bottom: 5px;
+    background-color: gold; 
+}
+
+.jc1{
+    justify-content: space-evenly;
+}
+
+.fdc{/*alterando flex para vertical */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qsr{
+    flex-wrap: wrap;
+}

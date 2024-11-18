@@ -1,0 +1,52 @@
+.paif { 
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 240px;
+    max-height: 240px;
+    background-color: cornflowerblue;
+    height: 60px;
+}
+
+.filhof{
+    border: 1px solid black;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-bottom: 5px;
+    background-color: gold;
+}
+
+.jc1{
+    justify-content: space-evenly;
+}
+
+.jc2{
+    justify-content: center;
+}
+
+.jc3{
+    justify-content: end;
+}
+
+.jc4{
+    justify-content: space-evenly;
+}
+
+.jc5{
+    justify-content: space-around;
+}
+
+.jc6{
+    justify-content: space-between;
+}
+
+.fdc{/*alterando flex para vertical */
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse; /*inverte a ordem */
+}
+
+.qsr{
+    flex-wrap: nowrap;
+}

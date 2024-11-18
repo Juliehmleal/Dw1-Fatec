@@ -1,0 +1,48 @@
+/* Display Flex */
+/* display flex deve ser aplicado ao cotainer pai */
+
+.paif{
+    display: flex;
+    min-width: 200px;
+    max-width: 200px;
+    background-color: cornflowerblue;
+    height: 60px;
+    gap: 5px;
+}
+
+.filhof{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    min-width: 40px;
+    height: 40px;
+}
+
+.qs{/* quebra sim */
+    flex-wrap: wrap;
+}
+
+.jc1{
+    justify-content: start;
+}
+
+.jc2{
+    justify-content: center;
+}
+
+.jc3{
+    justify-content: end;
+}
+
+.jc4{
+    justify-content: space-evenly;
+}
+
+.jc5{
+    justify-content: space-around;
+}
+
+.jc6{
+    justify-content: space-between;
+}
